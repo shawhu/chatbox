@@ -9,7 +9,7 @@
   },
   "package": {
     "productName": "chatbox",
-    "version": "0.4.0"
+    "version": "0.7.1"
   },
   "tauri": {
     "allowlist": {
@@ -97,10 +97,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 800,
+        "height": 900,
         "resizable": true,
-        "title": "chatbox",
-        "width": 1000
+        "title": "HarrysChatbox",
+        "width": 1280
       }
     ]
   }
