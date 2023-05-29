@@ -109,13 +109,9 @@ build.sh
 /build
 
 # misc
-.DS_Store
 *.pem
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
@@ -128,7 +124,8 @@ yarn-error.log*
 .vercel
 
 # typescript
-*.tsbuildinfo
 next-env.d.ts
 
 tmp
+/.vscode/
+/package-lock.json

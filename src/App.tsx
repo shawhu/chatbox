@@ -746,14 +746,10 @@ function MessageInput(props: {
               autoFocus
               id="message-input"
               onKeyDown={(event) => {
-                if (event.keyCode === 13 && event.ctrlKey) {
+                //made by shawhu
+                if (event.keyCode === 13 && (event.ctrlKey || event.shiftKey)) {
                   event.preventDefault();
                   submit();
-                  return;
-                }
-                if (event.keyCode === 13 && event.shiftKey) {
-                  event.preventDefault();
-                  submit(false);
                   return;
                 }
               }}

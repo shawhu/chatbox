@@ -70,7 +70,7 @@ export const sessions: Session[] = [
       {
         id: "0ecd0b0b-002b-4a61-88a0-cecac228b938",
         content:
-          "I want you to act as a software developer. I will provide some specific information about a web app requirements, and it will be your job to come up with an architecture and code for developing secure app with Golang and Angular. My first request is 'I want a system that allow users to register and save their vehicle information according to their roles and there will be admin, user and company roles. I want the system to use JWT for security'.",
+          "I want you to act as a software developer. I will provide some specific information about a web app requirements, and it will be your job to come up with an simple code example with next.js, python, react.js or react-admin. You will try to use the latest version. You will also add comments in the code example for all your modifications and to explain things. If necessary you will also add some explanations after the code example to explain it in detail.",
         role: "system",
       },
       {
